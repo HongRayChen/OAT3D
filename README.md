@@ -4,6 +4,8 @@
 
 Authors: Hongrui Chen∗, Kittipong Thiamchaiboonthawee∗, Zhen Wei, Amin Heyrani Nobari, Faez Ahmed (* contributed equally)
 
+[Read the paper (PDF)](./OAT3D_Arxiv-2.pdf?raw=1)
+
 OAT3D generates a 3D material-density field from a design domain, supports, applied forces, and target volume fraction. Each seed produces a candidate on the native voxel grid. The repository includes 50 example boundary conditions.
 
 ![Five paired topologies, OAT3D above SIMP/PGD](figures/topology-comparison.png)
@@ -110,3 +112,8 @@ For one load object, set `load_indptr = [0, M]`. For two objects containing thre
 Each `<out>/<case>/seed_<nn>.npz` contains the seed and a float16 `density` array in `[0, 1]` with shape `(nx, ny, nz)`. The dense stage locates material support and the sparse stage resolves the density on the native grid. Both use 10 Euler steps, with guidance scales of 5 and 2.5, respectively.
 
 The sparse operators and VAE components incorporate code from Direct3D-S2. Third-party notices are included in this repository. [Direct3D-S2](https://github.com/DreamTechAI/Direct3D-S2)
+
+## Citation
+
+```bibtex
+```

@@ -2,6 +2,8 @@
 
 **A Generative Model for 3D Shape- and Resolution-Free Structural Topology Optimization**
 
+Authors: Hongrui Chen∗, Kittipong Thiamchaiboonthawee∗, Zhen Wei, Amin Heyrani Nobari, Faez Ahmed (* contributed equally)
+
 OAT3D generates a 3D material-density field from a design domain, supports, applied forces, and target volume fraction. Each seed produces a candidate on the native voxel grid. The repository includes 50 example boundary conditions.
 
 ![Five paired topologies, OAT3D above SIMP/PGD](figures/topology-comparison.png)

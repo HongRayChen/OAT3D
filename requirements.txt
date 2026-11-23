@@ -1,0 +1,6 @@
+diffusers==0.37.1
+einops==0.8.2
+huggingface_hub==1.11.0
+numpy==2.2.6
+safetensors==0.7.0
+scipy==1.15.3

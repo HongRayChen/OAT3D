@@ -4,7 +4,7 @@
 
 Authors: Hongrui Chen∗, Kittipong Thiamchaiboonthawee∗, Zhen Wei, Amin Heyrani Nobari, Faez Ahmed (* contributed equally)
 
-[Read the paper (PDF)](./OAT3D_Arxiv-2.pdf?raw=1)
+[Read the paper (PDF)](./OAT3D_Arxiv-2.pdf?raw=1) · [arXiv:2611.29253](https://arxiv.org/abs/2611.29253)
 
 OAT3D generates a 3D material-density field from a design domain, supports, applied forces, and target volume fraction. Each seed produces a candidate on the native voxel grid. The repository includes 50 example boundary conditions.
 
@@ -116,4 +116,13 @@ The sparse operators and VAE components incorporate code from Direct3D-S2. Third
 ## Citation
 
 ```bibtex
+@misc{chen2026oat3dgenerativemodel3d,
+      title={OAT3D: A Generative Model for 3D Shape- and Resolution-Free Structural Topology Optimization},
+      author={Hongrui Chen and Kittipong Thiamchaiboonthawee and Zhen Wei and Amin Heyrani Nobari and Faez Ahmed},
+      year={2026},
+      eprint={2611.29253},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2611.29253},
+}
 ```
